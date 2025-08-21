@@ -1,0 +1,48 @@
+body{
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-color: #1E293B;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh
+}
+
+.container{
+  max-width: 400px;
+  min-width: 400px;
+ margin: 50px auto;
+  padding: 20px;
+  text-align: center;
+  background: white;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+ }
+#otp-title{
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+#otp-display{
+    font-size: 32px;
+  font-weight: bold;
+   margin: 15px 0;
+  }
+#otp-timer{
+    color: #888;
+  margin-bottom: 20px;
+}
+
+#generate-otp-button{
+  padding: 10px 20px;
+  font-size: 16px;
+  background: #3B82F6;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background 0.3s;
+}
+#generate-otp-button:disabled{
+  background: #aaa;
+  cursor: not-allowed;
+}
